@@ -1,4 +1,3 @@
-
 title: Sam Church
 logo: /assets/img/shc.png
 description: shchurch @ twitter, github
@@ -7,3 +6,5 @@ google_analytics:
 github:
   is_project_page: false
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-relative-links
