@@ -14,8 +14,8 @@ layout: default
 
 Insect lay eggs of all shapes and sizes. I study the evolutionary history of eggs across insects, asking questions like:
 *   Which insects lay the biggest and smallest eggs?
-*   How is the size of an egg related to the development of the embryo inside?  
-*   Looking at the incredible range of egg forms, what can we learn about the evolutionary process?
+*   How is the size of an egg related to the development of the embryo inside?
+*   By studying the incredible range of egg forms, what can we learn about the evolutionary process?
 
 For a deep dive on insect egg shape and size, check out our custom [visualization](/dataviz/index.html)
 
@@ -23,7 +23,7 @@ For a deep dive on insect egg shape and size, check out our custom [visualizatio
 
 ![picticornis](/assets/img/picticornis.png)
 
-Millions of years ago, fruit flies (Drosophilidae) found their way to the Hawaiian islands. Now there are many hundreds of species found on Hawaii, and nowhere else in the world.
+Millions of years ago, _Drosophila_ fruit flies found their way to the Hawaiian islands. Now there are many hundreds of species found on Hawaii, and nowhere else in the world.
 
 I study the relationships between these species, focusing on the their diversity in egg shapes. In this project I take advantage of the fact that we know more about fruit fly genetics than perhaps any other animal, due to the closely related model organism, _Drosophila melanogaster_.
 
@@ -44,7 +44,7 @@ Do you know anyone you might want to learn English, living in the Boston area? S
 
 [Boston-Cambridge English Class](https://www.facebook.com/groups/bostoncambridgeenglishclass)
 
-Primarily serving Spanish and Portuguese speakers, we offer classes for all levels and are always welcoming new students. 
+We primarily serve Spanish and Portuguese speaking adults, we offer classes for all levels and are always welcoming new students. 
 
 
 # Contact, Publications
