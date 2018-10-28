@@ -23,7 +23,7 @@ For a deep dive on insect egg shape and size, check out our custom [visualizatio
 
 ![picticornis](/assets/img/picticornis.png)
 
-Millions of years ago, _Drosophila_ fruit flies found their way to the Hawaiian islands. Now there are many hundreds of species found on Hawaii, and nowhere else in the world.
+Millions of years ago, _Drosophila_ fruit flies found their way to the Hawaiian islands. Now there are many hundreds of species found on Hawaii and nowhere else in the world.
 
 I study the relationships between these species, focusing on the their diversity in egg shapes. In this project I take advantage of the fact that we know more about fruit fly genetics than perhaps any other animal, due to the closely related model organism, _Drosophila melanogaster_.
 
