@@ -32,7 +32,7 @@ var variable_dict = {"X2": "Width (mm)",
 
 // image tooltip div
 var div = d3.select("body").append("div")  
-	// referred to as image_tooltip
+    // referred to as image_tooltip
     .attr("class", "image_tooltip")   
     // usually invisible            
     .style("opacity", 0);
@@ -59,7 +59,7 @@ var transform_axes = "1";
 var eggAxisy_svg;
 var eggAxisx_svg;
 
-	// limits
+    // limits
     var low_lim = 0
     var high_lim = 17
 
@@ -86,23 +86,23 @@ var eggAxisx_svg;
     var low_sqcurv = 0;
     var high_sqcurv = 1.9;
 
-	// scales
-	var eggScalex = d3.scale.linear()
-					// set the pixel range that d3 uses to build the scatterplot
-	                .range([100,egg_scatterplot_w-100])
-	                // choose the limits to display in that range
-	                .domain([low_lim,high_lim]);
-	var eggScaley = d3.scale.linear()
-					.range([100,egg_scatterplot_h-100])
-					.domain([high_lim,low_lim]);
+    // scales
+    var eggScalex = d3.scale.linear()
+                    // set the pixel range that d3 uses to build the scatterplot
+                    .range([100,egg_scatterplot_w-100])
+                    // choose the limits to display in that range
+                    .domain([low_lim,high_lim]);
+    var eggScaley = d3.scale.linear()
+                    .range([100,egg_scatterplot_h-100])
+                    .domain([high_lim,low_lim]);
 
 
-	// axes
-	var eggAxisx = d3.svg.axis()
-	                .scale(eggScalex);
-	var eggAxisy = d3.svg.axis()
-	                .scale(eggScaley)
-	                .orient("left");
+    // axes
+    var eggAxisx = d3.svg.axis()
+                    .scale(eggScalex);
+    var eggAxisy = d3.svg.axis()
+                    .scale(eggScaley)
+                    .orient("left");
 
     eggAxisx.ticks(10)
         .tickSize(0,0)
@@ -129,14 +129,14 @@ function change_color() {
 
     make_legend();
 
-    var colours = ["#440154","#481568","#482677","#453781","#3F4788","#391008C"
+    var colours = ["#440154","#481568","#482677","#453781","#3F4788","#39108C"
     ,"#32648E","#2D718E","#287D8E","#238A8D","#1F968B","#20A386"
-    ,"#29AF7F","#3CBC75","#56C667","#74D0100","#94D840","#B8DE29"
+    ,"#29AF7F","#3CBC75","#56C667","#74D010","#94D840","#B8DE29"
     ,"#DCE318","#FDE725"];
 
     var heatmapColour = d3.scale.linear()
-        .domain(d3.range(0, 1, 1.0 / (colours.length - 1)))
-        .range(colours);
+      .domain(d3.range(0, 1, 1.0 / (colours.length - 1)))
+      .range(colours);
 
     if(var_color == "clade") {
         egg_scatterplot_object.selectAll(".egg_point")
@@ -329,7 +329,7 @@ function highlight_searched() {
 }
 
 function imageExists(image_url){
-	// check if an image file is found
+    // check if an image file is found
     var http = new XMLHttpRequest()
     http.open("HEAD", image_url, false)
     http.send()
@@ -420,7 +420,7 @@ function show_image_tooltip(datum) {
     // build the text box next to the point
     minitext.html( datum["genus"] + " " + datum["species"] + " ID:" + datum["ID"] + ", " + datum["bibtex"]);
     
-	// this is the name of the picture file
+    // this is the name of the picture file
     var picturename = "ID" + datum["ID"] + ".png"
     var urlname = "pics/Entry_PNGs_cropped/" + picturename;
     // check if it is real
@@ -432,11 +432,11 @@ function show_image_tooltip(datum) {
         .style("opacity", 1.0)
 
     if(img_flag) {
-    	// if the image is present, show the pic
+        // if the image is present, show the pic
         minipic.style("opacity",1)
         minipic.attr("src",urlname);
     } else {
-    	// otherwise just show the text
+        // otherwise just show the text
         minipic.style("opacity",0);
     }
     
@@ -539,7 +539,7 @@ function make_egg_scatterplot() {
                     return 4;
                 }
             })
-			// set up the mouseover image_tooltip
+            // set up the mouseover image_tooltip
             .on("mouseover", function(d){
                 show_image_tooltip(d);
             })
