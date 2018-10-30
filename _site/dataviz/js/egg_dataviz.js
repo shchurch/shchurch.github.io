@@ -435,14 +435,20 @@ function show_image_tooltip(datum) {
         // if the image is present, show the pic
         minipic.style("opacity",1)
         minipic.attr("src",urlname);
+
+        // put the image div to the upper right of the point
+        div.style("left", (d3.event.pageX - 135) + "px");     
+        div.style("top", (d3.event.pageY - 270) + "px");
     } else {
         // otherwise just show the text
         minipic.style("opacity",0);
+
+        // put the image div to the upper right of the point
+        div.style("left", (d3.event.pageX - 135) + "px");     
+        div.style("top", (d3.event.pageY - 70) + "px");
     }
     
-    // put the image div to the upper right of the point
-    div.style("left", (d3.event.pageX - 135) + "px");     
-    div.style("top", (d3.event.pageY - 270) + "px");
+
 
 }
 

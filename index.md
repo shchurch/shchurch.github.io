@@ -49,7 +49,7 @@ We primarily serve Spanish and Portuguese speaking adults, we offer classes for 
 
 # Contact, Publications
 
-[Google Scholar Profile](https://scholar.google.com/citations?user=mdN4whgAAAAJ&hl=en)
+[Google Scholar Profile](https://scholar.google.com/citations?user=4fMce0EAAAAJ&hl=en)
 
 email: church@g.harvard.edu
 
