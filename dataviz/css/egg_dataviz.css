@@ -24,24 +24,27 @@ input {
 }
 
 div.image_tooltip {   
-    position: absolute;         
+    position: absolute;
+    left: 700px;
+    top: 150px;
     text-align: center;         
     width: 270px; 
-    height: 40px;                   
+    height: 500px;                   
     font: 14px sans-serif;  
     color: white;  
     background: gray; 
     border: 0px;        
     border-radius: 8px;         
-    pointer-events: none;           
+    pointer-events: none;
 }
 
-div.minipic_div { 
-    position: absolute;  
-    top: 10;  
-    bottom: 0;  
-    left: 0;  
-    right: 0;  
+div.minitext {  
+    margin: 15px auto; 
+    padding: 10px;
+    position: relative;
+}
+
+div.minipic_div {  
     margin: auto; 
     height: 250px;
     width: 250px;
@@ -54,7 +57,7 @@ div.minipic_div img {
     width: auto;
     height: auto;
     position: absolute;  
-    top: 0;  
+    top: 30;  
     bottom: 0;  
     left: 0;  
     right: 0;  
@@ -88,6 +91,7 @@ div.minipic_div img {
 
 #svg_div {
     position: relative;
+    width: 900px;
     margin: 0px auto;
 }
 
@@ -184,7 +188,7 @@ div.minipic_div img {
     color: white;
 }
 
-#untransformed {
+#transformed {
     position: absolute;
     left: 0px;
     width: 100px;
@@ -192,7 +196,7 @@ div.minipic_div img {
     pointer-events: none;
 }
 
-#transformed {
+#untransformed {
     position: absolute;
     left: 100px;
     width: 100px;

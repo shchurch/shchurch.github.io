@@ -31,7 +31,7 @@ var variable_dict = {"X2": "Width (mm)",
                     "sqcurv": "Angle of curvature (rad) - square root scale"};
 
 // image tooltip div
-var div = d3.select("body").append("div")  
+var div = d3.select("#svg_div").append("div")  
     // referred to as image_tooltip
     .attr("class", "image_tooltip")   
     // usually invisible            
@@ -39,7 +39,11 @@ var div = d3.select("body").append("div")
 
 // minitext div in image tooltip
 var minitext = div.append("div")
-    .attr("id","minitext");
+    .attr("id","minitext")
+    .attr("class","minitext");
+var minisource = div.append("div")
+    .attr("id","minisource")
+    .attr("class","minitext");
 
 // minipic div in image tooltip
 var minipic_div = div.append("div")
@@ -49,11 +53,10 @@ var minipic_div = div.append("div")
 var minipic = minipic_div.append("img")
     .attr("id","minipic");
 
-
 // scatterplot axes
-var x_axis_radio = "X1";
-var y_axis_radio = "X2";
-var transform_axes = "1";
+var x_axis_radio = "logar";
+var y_axis_radio = "logvol";
+var transform_axes = "2";
 
 // Length and Width
 var eggAxisy_svg;
@@ -91,10 +94,10 @@ var eggAxisx_svg;
                     // set the pixel range that d3 uses to build the scatterplot
                     .range([100,egg_scatterplot_w-100])
                     // choose the limits to display in that range
-                    .domain([low_lim,high_lim]);
+                    .domain([low_logar,high_logar]);
     var eggScaley = d3.scale.linear()
                     .range([100,egg_scatterplot_h-100])
-                    .domain([high_lim,low_lim]);
+                    .domain([high_logvol,low_logvol]);
 
 
     // axes
@@ -143,7 +146,7 @@ function change_color() {
             .style("fill", function(d) { return color(d["group"])
         });
     } else {
-        color_lims = get_lims(var_color,true)
+        color_lims = get_lims(var_color,false)
         var color_scale = d3.scale.linear()
             .domain([color_lims[0],color_lims[1]])
             .range([0,1]);
@@ -220,7 +223,7 @@ function set_axes(low_x,high_x,low_y,high_y,var_x,var_y) {
 
 function get_lims(variable,transform) {
     if(variable == "X1" | variable == "X2") {
-        if(transform == false){
+        if(transform == true){
             low = low_lim
             high = high_lim
         } else {
@@ -229,7 +232,7 @@ function get_lims(variable,transform) {
             variable = transform_dict[variable]
         }
     } else if(variable == "vol") {
-        if(transform == false){
+        if(transform == true){
             low = low_vol
             high = high_vol
         } else {
@@ -238,7 +241,7 @@ function get_lims(variable,transform) {
             variable = transform_dict[variable]
         }
     } else if(variable == "ar") {
-        if(transform == false){
+        if(transform == true){
             low = low_ar
             high = high_ar
         } else {
@@ -247,7 +250,7 @@ function get_lims(variable,transform) {
             variable = transform_dict[variable]
         }
     } else if(variable == "asym") {
-        if(transform == false){
+        if(transform == true){
             low = low_asym
             high = high_asym
         } else {
@@ -256,7 +259,7 @@ function get_lims(variable,transform) {
             variable = transform_dict[variable]
         }
     } else if(variable == "curv") {
-        if(transform == false){
+        if(transform == true){
             low = low_curv
             high = high_curv
         } else {        
@@ -381,7 +384,7 @@ function make_legend() {
         legend_object.selectAll("g")
             .attr("display","none");
 
-        var color_lims = get_lims(var_color,true)
+        var color_lims = get_lims(var_color,false)
 
         var color_scale = d3.scale.linear()
             .range([color_lims[0],color_lims[1]])
@@ -415,11 +418,19 @@ function make_legend() {
 }
 
 function show_image_tooltip(datum) {
-
-
     // build the text box next to the point
-    minitext.html( datum["genus"] + " " + datum["species"] + " ID:" + datum["ID"] + ", " + datum["bibtex"]);
-    
+    minitext.html( "<i>" + datum["genus"] + " " + datum["species"] + "</i>");
+
+    var source = "data/bibliography_formatted.csv";
+    var bibkeys = {};
+    d3.tsv(source, (bibdata) => {
+        bibdata.map(d => {
+            bibkeys[d["bibkey"]] = d["reference"];
+            return bibkeys;   
+        });
+        minisource.html(bibkeys[datum["bibtex"]])    
+    });
+
     // this is the name of the picture file
     var picturename = "ID" + datum["ID"] + ".png"
     var urlname = "pics/Entry_PNGs_cropped/" + picturename;
@@ -428,28 +439,20 @@ function show_image_tooltip(datum) {
 
     // transition in the image tooltip div
     div.transition()        
-        .duration(20)      
-        .style("opacity", 1.0)
+        .duration(20)   
+        .style("opacity", 0.8);
 
     if(img_flag) {
         // if the image is present, show the pic
         minipic.style("opacity",1)
         minipic.attr("src",urlname);
 
-        // put the image div to the upper right of the point
-        div.style("left", (d3.event.pageX - 135) + "px");     
-        div.style("top", (d3.event.pageY - 270) + "px");
     } else {
         // otherwise just show the text
         minipic.style("opacity",0);
 
-        // put the image div to the upper right of the point
-        div.style("left", (d3.event.pageX - 135) + "px");     
-        div.style("top", (d3.event.pageY - 70) + "px");
     }
     
-
-
 }
 
 function make_egg_scatterplot() { 
@@ -457,11 +460,11 @@ function make_egg_scatterplot() {
     eggAxisx_svg = egg_scatterplot_object.append("g")
         .attr("class", "x axis")
         .call(eggAxisx)
-        .attr("transform", "translate(0," + eggScaley(0) + ")");
+        .attr("transform", "translate(0," + eggScaley(low_logvol) + ")");
     eggAxisy_svg = egg_scatterplot_object.append("g")
         .attr("class", "y axis")
         .call(eggAxisy)
-        .attr("transform", "translate(" + eggScalex(0) + ", 0)");
+        .attr("transform", "translate(" + eggScalex(low_logar) + ", 0)");
     // add text to the axes
     eggAxisy_svg.append("text")
         .attr("text-anchor", "middle")
