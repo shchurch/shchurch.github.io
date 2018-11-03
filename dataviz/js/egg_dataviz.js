@@ -440,7 +440,7 @@ function show_image_tooltip(datum) {
     // transition in the image tooltip div
     div.transition()        
         .duration(20)   
-        .style("opacity", 0.8);
+        .style("opacity", 1.0);
 
     if(img_flag) {
         // if the image is present, show the pic
