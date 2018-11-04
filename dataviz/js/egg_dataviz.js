@@ -557,10 +557,8 @@ function make_egg_scatterplot() {
                 div.transition()        
                     .duration(500)      
                     .style("opacity", 0);
-                minipic.attr("src",'"pics/tinytrans.gif');
+                minipic.attr("src",'pics/tinytrans.gif');
             });
-
-
 }
 
 function load_egg_database() {
