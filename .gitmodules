@@ -1,0 +1,3 @@
+[submodule "dataviz"]
+	path = dataviz
+	url = https://github.com/shchurch/insect_egg_database_viz
