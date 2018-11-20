@@ -2,7 +2,7 @@
 layout: default
 ---
 
-> I am PhD Candidate at Harvard University, 
+> I am a PhD Candidate at Harvard University, 
 > studying evolution, insects, and embryo development. 
 > I also teach free English classes to adults in the Boston area. 
 
@@ -40,7 +40,7 @@ We call our software `sowhat`, feel free to [check it out](https://github.com/jo
 
 ![english_class](/assets/img/english_class.png)
 
-Do you know anyone you might want to learn English, living in the Boston area? Send them our way!
+Do you know anyone who might want to learn English, living in the Boston area? Send them our way!
 
 [Boston-Cambridge English Class](https://www.facebook.com/groups/bostoncambridgeenglishclass)
 
