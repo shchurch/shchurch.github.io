@@ -5,35 +5,40 @@ layout: default
 > National Science Foundation Postdoctoral Fellow  
 > Dunn Laboratory, Yale University 
 
+![hatchlings](/assets/img/icons-01.png)
+
 * TOC
 {:toc}
 # Research
 
-I am an evolutionary biologist; I study the relationships between organisms to learn how biodiversity is generated. My research uses field work, lab work, and computational biology to investigate evolution across scales of life.
+I am an evolutionary biologist; I study the relationships between organisms to learn about biodiversity. My research uses field work, lab work, and bioinformatics to investigate evolution across scales of life.
 
 Big questions in my work are:
 
-- How much variation do we expect to observe across evolutionary time? What is our null hypothesis?
-- To what extent does development constrain or augment the evolutionary process?
+- How much variation do we expect to observe over evolutionary time? What is our null hypothesis?
+- How does development constrain or augment the evolutionary process?
 - How are species related, and what do phylogenies reveal about patterns in trait evolution?
 
-My work centers on the curation, comparison, and visualization of large trait datsets. To do this, I write new software that facilitates gathering and comparing high-dimensional datasets across species.
+My work centers on the curation, comparison, and visualization of large trait datsets. To do this, I write software for gathering and comparing high-dimensional data across species.
+
+<br>
 
 ### Evolutionary inference for big developmental data
 
-In my current research, I am developing tools for evolutionary analysis of gene expression data that emerge from single-cell sequencing and other RNA-seq technologies. This work combines mathematics, bioinformatics, and developmental and evolutionary biology to build a new framework for analyzing these data.
+In my current research, I am developing tools for evolutionary analysis of gene expression data from single-cell sequencing and other RNA-seq technologies. This work combines mathematics, bioinformatics, and developmental and evolutionary biology to build a new analytical framework.
 
-In this project and throughout my research, I advocate for building robust [null hypotheses](https://doi.org/10.1242/dev.178004) that describe how much variation we expect to observe when we compare across species. Check out this twitter thread for a brief explainer:
+Throughout my research, I advocate for robust [null hypotheses](https://doi.org/10.1242/dev.178004) that describe how much variation we expect to observe when we compare across species. Check out this twitter thread for a brief explainer:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/redmakeda?ref_src=twsrc%5Etfw">@redmakeda</a> and I have a new paper talking about null hypotheses in evo-devo. A null hypothesis answers the question:<br><br>“How much difference do we expect when we study development in different species?”<a href="https://t.co/DdZKDEYUfM">https://t.co/DdZKDEYUfM</a></p>&mdash; Sam Church (@shchurch) <a href="https://twitter.com/shchurch/status/1254861903882530816?ref_src=twsrc%5Etfw">April 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>    
+<br>
 
 ### Life-history evolution and insect eggs
 
-I study how developmental biology can modulate trait evolution. Life-history theory describes how traits like size, shape, and reproductive features are related across organsims and over evolutionary time.
+Life-history theory describes how traits like size, shape, and reproductive features are related across organsims and over evolutionary time. I study how developmental biology can modulate these trait relationships. 
 
-In my PhD work, I curated a large dataset of insect reproductive traits like egg size and shape by digitizing records from the published literature. Our team used this dataset to ask questions like:
+In my PhD work, I curated a dataset of 10,000+ insect reproductive traits like egg size and shape, by digitizing records from the literature. Our team used this dataset to ask questions like:
 *   Which insects lay the biggest and smallest eggs?
-*   How is the size of an egg related to the development of the embryo inside?
+*   How is egg size related to the development of the embryo inside?
 *   What can the vast range of egg shapes and sizes tell us about the evolutionary process?
 
 ![picticornis_egg](/assets/img/picticornis_egg.png)
@@ -43,10 +48,11 @@ Our work was recently [published](https://doi.org/10.1038/s41586-019-1302-4) in 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Insects lay eggs of all shapes and sizes! This makes them a great system for exploring the way shape and size evolve. <br><br>This non-technical thread highlights the findings of our new paper in <a href="https://twitter.com/Nature?ref_src=twsrc%5Etfw">@nature</a> by <a href="https://twitter.com/shchurch?ref_src=twsrc%5Etfw">@shchurch</a> <a href="https://twitter.com/brunoasm?ref_src=twsrc%5Etfw">@brunoasm</a> <a href="https://twitter.com/redmakeda?ref_src=twsrc%5Etfw">@redmakeda</a> and me.<a href="https://t.co/cRPG8YRHbc">https://t.co/cRPG8YRHbc</a> <a href="https://t.co/e717I8wzbS">pic.twitter.com/e717I8wzbS</a></p>&mdash; Seth Donoughe (@seth_donoughe) <a href="https://twitter.com/seth_donoughe/status/1146469955380137984?ref_src=twsrc%5Etfw">July 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I also study the organ that makes insect eggs: the insect ovary. Our recent [publication in _Proceedings of the Royal Society B_](https://doi.org/10.1098/rspb.2021.0150) found that understanding ovary development is critical to interpreting patterns in the ovary variation across species. 
+I also study the organ that makes insect eggs: the insect ovary. Our recent [publication in _Proceedings of the Royal Society B_](https://doi.org/10.1098/rspb.2021.0150) found that ovary development has a big impact on patterns in ovary structure variation across species.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">We have a new publication at <a href="https://twitter.com/RSocPublishing?ref_src=twsrc%5Etfw">@RSocPublishing</a> <a href="https://twitter.com/hashtag/ProcB?src=hash&amp;ref_src=twsrc%5Etfw">#ProcB</a> on offspring size, number, and the evolution of the insect ovary! In it we test for general patterns in the shape and structure of ovaries across insects. Here’s a few things we learned from that work: <a href="https://t.co/XgZ9eXVirW">https://t.co/XgZ9eXVirW</a></p>&mdash; Sam Church (@shchurch) <a href="https://twitter.com/shchurch/status/1390011348315217922?ref_src=twsrc%5Etfw">May 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  
+<br>
+
 ### Hawaiian _Drosophila_: model clade for evo-devo
 
 Millions of years ago, _Drosophila_ fruit flies found their way to the Hawaiian islands. Now there are many hundreds of species found on Hawaii and nowhere else in the world.
@@ -54,9 +60,10 @@ Millions of years ago, _Drosophila_ fruit flies found their way to the Hawaiian 
 ![picticornis](/assets/img/picticornis.png)
 Adult Hawaiian fly *Drosophila picticornis*
 
-Given their close relationship to model species like the fruit fly _Drosophila melanogaster_, this group is primed to become a model clade for evo-devo. In my research, I combine next-gen sequencing and comparative methods to uncover the [evolutionary history of these species](https://doi.org/10.1093/molbev/msac012).
+Given their close relationship to model species like _Drosophila melanogaster_, this group is primed to be a model clade for evo-devo. In my research, I combine next-gen sequencing and comparative methods to uncover their [evolutionary history](https://doi.org/10.1093/molbev/msac012).
 
-Specifically, I investigate variation in developmental mechanisms that underlies biodiversity in this group. In my PhD work, I sequenced gene expression data across tissues from a dozen Hawaiian species. This work, recently [released as a preprint](https://doi.org/10.1101/2021.11.30.470652), demonstrates how comparative methods can be used to detect evolutionary changes in gene expression across organs and species.
+In my PhD work, I sequenced gene expression data across tissues from a dozen Hawaiian species. This work, recently [released as a preprint](https://doi.org/10.1101/2021.11.30.470652), demonstrates how comparative methods can be used to detect evolutionary changes in gene expression across organs and species.  
+<br>
 
 ### Phylogenetic software and methods
 
