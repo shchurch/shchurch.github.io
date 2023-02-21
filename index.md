@@ -3,7 +3,8 @@ layout: default
 ---
 
 > National Science Foundation Postdoctoral Fellow  
-> Dunn Laboratory, Yale University 
+> Dunn Laboratory, Yale University  
+> [my CV](/assets/Samuel_Church_CV_Feb2023.pdf) as of Feb, 2023
 
 ![hatchlings](/assets/img/icons-01.png)
 
