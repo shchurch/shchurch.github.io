@@ -6,32 +6,58 @@ layout: default
 > Dunn Laboratory, Yale University  
 > [my CV](/assets/Samuel_Church_CV_Feb2023.pdf) as of Feb, 2023
 
-![hatchlings](/assets/img/icons-01.png)
+![hatchlings](/assets/img/icons.png)
 
 * TOC
 {:toc}
 # Research
 
-I am an evolutionary biologist; I study the relationships between organisms to learn about biodiversity. My research uses field work, lab work, and bioinformatics to investigate evolution across scales of life.
+I am an evolutionary biologist; I study the relationships between organisms to learn about biodiversity. My research uses field work, lab work, and bioinformatics to investigate the evolutionary tree across scales of life.
 
 Big questions in my work are:
 
+- How are species related, and what do species phylogenies reveal about patterns in trait evolution?
 - How much variation do we expect to observe over evolutionary time? What is our null hypothesis?
 - How does development constrain or augment the evolutionary process?
-- How are species related, and what do phylogenies reveal about patterns in trait evolution?
 
-My work centers on the curation, comparison, and visualization of large trait datsets. To do this, I write software for gathering and comparing high-dimensional data across species.
+My work centers on invertebrate animals, and on the curation, comparison, and visualization of large trait datsets. As part of this research, I write software for gathering and comparing high-dimensional data across species.
 
-<br>
+### Sailing siphonophore jellyfish in the genus _Physalia_
+
+_Physalia_ jellyfish, sometimes known as Portuguese man o' war or bluebottles, are beautiful, dangerous, confusing animals that live at the ocean surface and are found around the globe. 
+
+Because sailors, swimmers, and scientists have been encountering these animals for centuries, we have learned a few important things: They are colonial animals, meaning they grow by adding more bodies via asexual budding. They have a muscular sail they can use to travel by wind. And they have a powerful, sometimes fatal sting.
+
+But there is much more we still don't know about _Physalia_, including how many species there are, how and when they reproduce, and just how far they actually migrate in a lifetime. I am leading a global initiative to collect _Physalia_ from beaches around the world's oceans. We use genome sequencing to estimate population size and structure, and to determine if there may be cryptic diversity.
+
+![physalia](/assets/img/physalia_on_the_beach.png)
+Hawaiian *Physalia* on the beach
+
+### Hawaiian _Drosophila_: model clade for evo-devo
+
+Millions of years ago, _Drosophila_ fruit flies found their way to the Hawaiian islands. Now there are many hundreds of species found on Hawaii and nowhere else in the world.
+
+![picticornis](/assets/img/picticornis.png)
+Adult Hawaiian fly *Drosophila picticornis*
+
+Given their close relationship to model species like _Drosophila melanogaster_, this group is primed to be a model clade for evo-devo. In my research, I combine next-gen sequencing and comparative methods to uncover their [evolutionary history](https://doi.org/10.1093/molbev/msac012).
+
+In my PhD work, I sequenced gene expression data across tissues from a dozen Hawaiian species. This [work](
+https://doi.org/10.1371/journal.pgen.1010607), demonstrates how comparative methods can be used to detect evolutionary changes in gene expression across organs and species.  
+
 
 ### Evolutionary inference for big developmental data
 
-In my current research, I am developing tools for evolutionary analysis of gene expression data from single-cell sequencing and other RNA-seq technologies. This work combines mathematics, bioinformatics, and developmental and evolutionary biology to build a new analytical framework.
+I develop tools for evolutionary analysis of gene expression data from [single-cell sequencing](https://doi.org/10.1101/2022.06.01.494334) and other RNA-seq technologies. This work combines mathematics, bioinformatics, and developmental and evolutionary biology to build a new analytical framework.
 
-Throughout my research, I advocate for robust [null hypotheses](https://doi.org/10.1242/dev.178004) that describe how much variation we expect to observe when we compare across species. Check out this twitter thread for a brief explainer:
+Throughout my research, I advocate for robust [null hypotheses](https://doi.org/10.1242/dev.178004) that describe how much variation we expect to observe when we compare across species. 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/redmakeda?ref_src=twsrc%5Etfw">@redmakeda</a> and I have a new paper talking about null hypotheses in evo-devo. A null hypothesis answers the question:<br><br>“How much difference do we expect when we study development in different species?”<a href="https://t.co/DdZKDEYUfM">https://t.co/DdZKDEYUfM</a></p>&mdash; Sam Church (@shchurch) <a href="https://twitter.com/shchurch/status/1254861903882530816?ref_src=twsrc%5Etfw">April 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>    
-<br>
+The objective of this work is to infer and interpret the [cellular tree of life](
+https://doi.org/10.48550/arXiv.2307.02561
+). This tree unites species phylogenies, with population maps, geneologies of individuals, and down to cell lineages within a single individual.
+
+![cell_tree](/assets/img/species_to_cells.png)
+The cellular tree of life.
 
 ### Life-history evolution and insect eggs
 
@@ -45,26 +71,10 @@ In my PhD work, I curated a dataset of 10,000+ insect reproductive traits like e
 ![picticornis_egg](/assets/img/picticornis_egg.png)
 Egg of the Hawaiian fly *Drosophila picticornis*
 
-Our work was recently [published](https://doi.org/10.1038/s41586-019-1302-4) in the journal _Nature_. For a deep dive on insect egg shape and size, check out our custom [data visualization](/dataviz/index.html)
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Insects lay eggs of all shapes and sizes! This makes them a great system for exploring the way shape and size evolve. <br><br>This non-technical thread highlights the findings of our new paper in <a href="https://twitter.com/Nature?ref_src=twsrc%5Etfw">@nature</a> by <a href="https://twitter.com/shchurch?ref_src=twsrc%5Etfw">@shchurch</a> <a href="https://twitter.com/brunoasm?ref_src=twsrc%5Etfw">@brunoasm</a> <a href="https://twitter.com/redmakeda?ref_src=twsrc%5Etfw">@redmakeda</a> and me.<a href="https://t.co/cRPG8YRHbc">https://t.co/cRPG8YRHbc</a> <a href="https://t.co/e717I8wzbS">pic.twitter.com/e717I8wzbS</a></p>&mdash; Seth Donoughe (@seth_donoughe) <a href="https://twitter.com/seth_donoughe/status/1146469955380137984?ref_src=twsrc%5Etfw">July 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Our work was [published](https://doi.org/10.1038/s41586-019-1302-4) in the journal _Nature_. For a deep dive on insect egg shape and size, check out our custom [data visualization](/dataviz/index.html)
 
 I also study the organ that makes insect eggs: the insect ovary. Our recent [publication in _Proceedings of the Royal Society B_](https://doi.org/10.1098/rspb.2021.0150) found that ovary development has a big impact on patterns in ovary structure variation across species.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We have a new publication at <a href="https://twitter.com/RSocPublishing?ref_src=twsrc%5Etfw">@RSocPublishing</a> <a href="https://twitter.com/hashtag/ProcB?src=hash&amp;ref_src=twsrc%5Etfw">#ProcB</a> on offspring size, number, and the evolution of the insect ovary! In it we test for general patterns in the shape and structure of ovaries across insects. Here’s a few things we learned from that work: <a href="https://t.co/XgZ9eXVirW">https://t.co/XgZ9eXVirW</a></p>&mdash; Sam Church (@shchurch) <a href="https://twitter.com/shchurch/status/1390011348315217922?ref_src=twsrc%5Etfw">May 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<br>
-
-### Hawaiian _Drosophila_: model clade for evo-devo
-
-Millions of years ago, _Drosophila_ fruit flies found their way to the Hawaiian islands. Now there are many hundreds of species found on Hawaii and nowhere else in the world.
-
-![picticornis](/assets/img/picticornis.png)
-Adult Hawaiian fly *Drosophila picticornis*
-
-Given their close relationship to model species like _Drosophila melanogaster_, this group is primed to be a model clade for evo-devo. In my research, I combine next-gen sequencing and comparative methods to uncover their [evolutionary history](https://doi.org/10.1093/molbev/msac012).
-
-In my PhD work, I sequenced gene expression data across tissues from a dozen Hawaiian species. This work, recently [released as a preprint](https://doi.org/10.1101/2021.11.30.470652), demonstrates how comparative methods can be used to detect evolutionary changes in gene expression across organs and species.  
-<br>
 
 ### Phylogenetic software and methods
 
@@ -82,7 +92,7 @@ I am a passionate educator, and have substantial experience both in the universi
 
 ![english_class](/assets/img/english_class.png)
 
-I previously ran the Boston-Cambridge English program for adults. These classes primarily serve Portuguese and Spanish speaking adults at all English proficiency levels.
+I currently teach in New Haven, Connecticut, and previously ran the Boston-Cambridge English program for adults. These classes primarily serve Portuguese and Spanish speaking adults at all English proficiency levels.
 
 [Boston-Cambridge English Class](https://www.facebook.com/groups/bostoncambridgeenglishclass)
 
