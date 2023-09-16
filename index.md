@@ -16,19 +16,19 @@ I am an evolutionary biologist; I study the relationships between organisms to l
 
 Big questions in my work are:
 
-- How are species related, and what do species phylogenies reveal about patterns in trait evolution?
+- What can phylogenies reveal about patterns in trait evolution?
 - How much variation do we expect to observe over evolutionary time? What is our null hypothesis?
 - How does development constrain or augment the evolutionary process?
 
-My work centers on invertebrate animals, and on the curation, comparison, and visualization of large trait datsets. As part of this research, I write software for gathering and comparing high-dimensional data across species.
+My research centers on invertebrate animals, and on the curation, comparison, and visualization of large trait datsets. As part of this research, I write software for gathering and comparing high-dimensional data across species.
 
 ### Sailing siphonophore jellyfish in the genus _Physalia_
 
-_Physalia_ jellyfish, sometimes known as Portuguese man o' war or bluebottles, are beautiful, dangerous, confusing animals that live at the ocean surface and are found around the globe. 
+_Physalia_ jellyfish, known as Portuguese man o' war or bluebottles, are beautiful, dangerous, confusing animals found at the ocean surface around the globe. 
 
-Because sailors, swimmers, and scientists have been encountering these animals for centuries, we have learned a few important things: They are colonial animals, meaning they grow by adding more bodies via asexual budding. They have a muscular sail they can use to travel by wind. And they have a powerful, sometimes fatal sting.
+Sailors, swimmers, and scientists have encountered these animals for centuries, and have learned a few important things: They are colonial, meaning they grow by adding more bodies via asexual budding. They have a muscular sail they use to travel. And they have a powerful, sometimes fatal, sting.
 
-But there is much more we still don't know about _Physalia_, including how many species there are, how and when they reproduce, and just how far they actually migrate in a lifetime. I am leading a global initiative to collect _Physalia_ from beaches around the world's oceans. We use genome sequencing to estimate population size and structure, and to determine if there may be cryptic diversity.
+But there is much more we still don't know, including how many species there are, when and where they reproduce, and how far they actually migrate. I lead a global initiative to collect _Physalia_ from the world's oceans. We use genome sequencing to estimate population structure, and to determine if there may be cryptic diversity.
 
 ![physalia](/assets/img/physalia_on_the_beach.png)
 Hawaiian *Physalia* on the beach
