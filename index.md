@@ -26,12 +26,12 @@ My research centers on invertebrate animals, and on the curation, comparison, an
 
 _Physalia_ jellyfish, known as Portuguese man o' war or bluebottles, are beautiful, dangerous, confusing animals found at the ocean surface around the globe. 
 
+![physalia](/assets/img/physalia_on_the_beach.png)
+Hawaiian *Physalia* on the beach
+
 Sailors, swimmers, and scientists have encountered these animals for centuries, and have learned a few important things: They are colonial, meaning they grow by adding more bodies via asexual budding. They have a muscular sail they use to travel. And they have a powerful, sometimes fatal, sting.
 
 But there is much more we still don't know, including how many species there are, when and where they reproduce, and how far they actually migrate. I lead a global initiative to collect _Physalia_ from the world's oceans. We use genome sequencing to estimate population structure, and to determine if there may be cryptic diversity.
-
-![physalia](/assets/img/physalia_on_the_beach.png)
-Hawaiian *Physalia* on the beach
 
 ### Hawaiian _Drosophila_: model clade for evo-devo
 
