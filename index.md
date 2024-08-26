@@ -2,9 +2,9 @@
 layout: default
 ---
 
-> National Science Foundation Postdoctoral Fellow  
-> Dunn Laboratory, Yale University  
-> [my CV](/assets/Samuel_Church_CV_Feb2023.pdf) as of Feb, 2023
+> Associate Research Scientist 
+> Yale University  
+> [my CV](/assets/Samuel_Church_CV_Aug2024.pdf) as of Feb, 2023
 
 ![hatchlings](/assets/img/icons.png)
 
@@ -12,26 +12,26 @@ layout: default
 {:toc}
 # Research
 
-I am an evolutionary biologist; I study the relationships between organisms to learn about biodiversity. My research uses field work, lab work, and bioinformatics to investigate the evolutionary tree across scales of life.
+I am an evolutionary biologist; I study the relationships between organisms to understand the origins of biodiversity. My research uses field work, lab work, and computer science to explore the evolutionary tree of life.
 
 Big questions in my work are:
 
-- What can phylogenies reveal about patterns in trait evolution?
+- What do phylogenetic trees of species relationships reveal about patterns in trait evolution?
 - How much variation do we expect to observe over evolutionary time? What is our null hypothesis?
-- How does development constrain or augment the evolutionary process?
+- Can development constrain, augment, or otherwise modulate the evolutionary process?
 
-My research centers on invertebrate animals, and on the curation, comparison, and visualization of large trait datsets. As part of this research, I write software for gathering and comparing high-dimensional data across species.
+My research centers on invertebrate animals and on the curation, comparison, and visualization of large trait datsets. As part of this research, I write software for gathering and comparing high-dimensional data across species.
 
 ### Sailing siphonophore jellyfish in the genus _Physalia_
 
-_Physalia_ jellyfish, known as Portuguese man o' war or bluebottles, are beautiful, dangerous, confusing animals found at the ocean surface around the globe. 
+_Physalia_ jellyfish, known as Portuguese man o' war or bluebottles, are beautiful, dangerous, and confusing animals found at the ocean surface around the globe. 
 
 ![physalia](/assets/img/physalia_on_the_beach.png)
 Hawaiian *Physalia* on the beach
 
 Sailors, swimmers, and scientists have encountered these animals for centuries, and have learned a few important things: They are colonial, meaning they grow by adding more bodies via asexual budding. They have a muscular sail they use to travel. And they have a powerful, sometimes fatal, sting.
 
-But there is much more we still don't know, including how many species there are, when and where they reproduce, and how far they actually migrate. I lead a global initiative to collect _Physalia_ from the world's oceans. We use genome sequencing to estimate population structure, and to determine if there may be cryptic diversity.
+But there is much more we still don't know, including how many species there are, when and where they reproduce, and how far they actually migrate. I led a [global initiative](https://www.biorxiv.org/content/10.1101/2024.07.10.602499v2) to collect _Physalia_ from the world's oceans. We used genome sequencing to estimate population structure, and to determine if there may be cryptic diversity.
 
 ### Hawaiian _Drosophila_: model clade for evo-devo
 
@@ -88,17 +88,17 @@ This software has been deployed by many researchers, including myself in work on
 
 # Free Adult Education
 
-I am a passionate educator, and have substantial experience both in the university classroom, and as a volunteer educator to adults in my community.
+I am a dedicated educator, and have experience both in the university classroom, and as a volunteer educator to adults in my community.
 
 ![english_class](/assets/img/english_class.png)
 
-I currently teach in New Haven, Connecticut, and previously ran the Boston-Cambridge English program for adults. These classes primarily serve Portuguese and Spanish speaking adults at all English proficiency levels.
+I currently teach English to adults in New Haven, Connecticut, and previously ran the Boston-Cambridge English program for adults. These classes primarily serve Portuguese and Spanish speaking adults at all English proficiency levels.
 
 [Boston-Cambridge English Class](https://www.facebook.com/groups/bostoncambridgeenglishclass)
 
 # Publications
 
-Check out my [Google Scholar profile](https://scholar.google.com/citations?user=4fMce0EAAAAJ&hl=en) for a list of all publications.
+My [Google Scholar profile](https://scholar.google.com/citations?user=4fMce0EAAAAJ&hl=en) has a list of all publications.
 
 # Contact
 
