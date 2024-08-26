@@ -4,7 +4,7 @@ layout: default
 
 > Associate Research Scientist 
 > Yale University  
-> [my CV](/assets/Samuel_Church_CV_Aug2024.pdf) as of Feb, 2023
+> [my CV](/assets/Samuel_Church_CV_Aug2024.pdf) as of Aug, 2024
 
 ![hatchlings](/assets/img/icons.png)
 
