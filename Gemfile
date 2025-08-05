@@ -1,6 +1,10 @@
-source 'https://rubygems.org'
-gem 'jekyll-relative-links'
-gem 'github-pages', group: :jekyll_plugins
-gem "nokogiri", ">= 1.12.5"
-gem "rubyzip", ">= 1.3.0"
-gem "addressable", ">= 2.8.0"
+source "https://rubygems.org"
+
+# GitHub Pages dependencies (matches their infrastructure)
+gem "github-pages", group: :jekyll_plugins
+
+# Optional: Add local-only gems (won't affect GitHub Pages)
+group :local do
+  gem 'jekyll-sitemap'  # Example - only used locally
+  gem 'webrick'         # Needed for Ruby 3.0+ local serving
+end
