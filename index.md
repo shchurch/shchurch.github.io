@@ -18,7 +18,7 @@ Our research group studies evolutionary drivers of diversification. We combine f
 Millions of years ago, _Drosophila_ fruit flies found their way to the Hawaiian islands. Now there are many hundreds of species found on Hawaii and nowhere else in the world.
 
 ![picticornis](/assets/img/picticornis.png)
-Adult Hawaiian fly *Drosophila picticornis*
+**Adult Hawaiian fly _Drosophila picticornis_**
 
 Given their close relationship to model species like _Drosophila melanogaster_, this group is primed to be a model clade for evo-devo. In our research, we combine next-gen sequencing and phylogenetic comparative methods to uncover their [evolutionary history](https://doi.org/10.1093/molbev/msac012).
 
@@ -38,8 +38,8 @@ The objective of this work is to infer and interpret the [cellular tree of life]
 
 _Physalia_ jellyfish, known as Portuguese man o' war or bluebottles, are beautiful, dangerous, and mysterious animals found at the ocean surface around the globe. 
 
-![physalia](/assets/img/physalia_on_the_beach.png)
-Hawaiian *Physalia* on the beach
+![physalia](/assets/img/Pmegalista.png)
+**_Physalia megalista_ from New Zealand**
 
 Sailors, swimmers, and scientists have encountered these animals for centuries, and have learned a few important things: They are colonial, meaning they grow by adding more bodies via asexual budding. They have a muscular sail they use to travel. And they have a powerful, sometimes fatal, sting.
 
@@ -55,7 +55,7 @@ In previous work, we curated a dataset of 10,000+ insect reproductive traits lik
 *   What can the vast range of egg shapes and sizes tell us about the evolutionary process?
 
 ![picticornis_egg](/assets/img/picticornis_egg.png)
-Egg of the Hawaiian fly *Drosophila picticornis*
+**Egg of the Hawaiian fly _Drosophila picticornis_**
 
 This work was [published](https://doi.org/10.1038/s41586-019-1302-4) in the journal _Nature_. For a deep dive on insect egg shape and size, check out our custom [data visualization](/dataviz/index.html)
 
@@ -83,12 +83,10 @@ Samuel Church has a background in adult education, directing programs in New Hav
 
 <span style="color:rgb(237, 117, 52); font-weight:bold;">We are actively recruiting at all levels. Interested in joining? Contact us below!</span>
 
-Samuel H. Church, PhD, Principal Investigator
+**Samuel H. Church, PhD** – Principal Investigator
 ![Samuel Church](/assets/img/shc1.png)
 
-
-
-Samuel Church's [Google Scholar profile](https://scholar.google.com/citations?user=4fMce0EAAAAJ&hl=en)
+[Google Scholar profile](https://scholar.google.com/citations?user=4fMce0EAAAAJ&hl=en)
 
 
 # Contact
