@@ -73,19 +73,19 @@ This software has been deployed by many researchers, including our own work on t
 
 # Outreach
 
-We are committed to a research approach that is open, inclusive, and accessible. **If you are interested in collaborating in this endeavor, please reach out.**
-
-![sowhat](/assets/img/ChurchEvolutionLaboratory.png)
+We are committed to a research approach that is open, inclusive, and accessible. <span style="color:rgb(237, 117, 52); font-weight:bold;">If you are interested in collaborating in this endeavor, please reach out.</span>
 
 Samuel Church has a background in adult education, directing programs in New Haven, CT and Cambridge, MA, primarily serving Portuguese and Spanish-speaking communities.
 
 # People
 
-**We are actively recruiting at all levels. Interested in joining? Contact us below!**
+![CELBig](/assets/img/ChurchEvolutionLaboratory.png)
 
+<span style="color:rgb(237, 117, 52); font-weight:bold;">We are actively recruiting at all levels. Interested in joining? Contact us below!</span>
 
-![sowhat](/assets/img/shc1.png)
 Samuel H. Church, PhD, Principal Investigator
+![Samuel Church](/assets/img/shc1.png)
+
 
 
 Samuel Church's [Google Scholar profile](https://scholar.google.com/citations?user=4fMce0EAAAAJ&hl=en)
