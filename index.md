@@ -81,7 +81,7 @@ Samuel Church has a background in adult education, directing programs in New Hav
 
 # People
 
-**We are actively recruiting at all levels. Interested in joining? Contact us below!
+**We are actively recruiting at all levels. Interested in joining? Contact us below!**
 
 Principal investigator: Samuel H. Church, PhD
 
