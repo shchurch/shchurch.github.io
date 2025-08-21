@@ -11,7 +11,11 @@ layout: default
 
 # Research
 
-Our research group studies evolutionary drivers of diversification. We combine field work, lab work, and computational analysis to understand how variation emerges across biological scales, from genes to cells, organisms, and populations. This research spans invertebrate systems, with projects on Hawaiian fruit flies as a model for evolutionary development, sailing jellyfish found at the ocean surface, and life-history trade-off in insect eggs and reproduction. Because our work often involves new technologies and tools for collecting data across species, we also develop and release open-source software for analyzing and comparing large-scale datasets.
+Our research group studies the evolutionary process of diversification. We combine field work, lab work, and computational analysis to understand how variation emerges across biological scales, from genes to cells, organisms, and populations. 
+
+This research spans invertebrate systems, including projects on Hawaiian fruit flies as a model for evolutionary development, sailing jellyfish found at the ocean surface, and life-history trade-offs in insect eggs and ovaries. 
+
+Because our work often involves new technologies and tools for collecting data across species, we also develop and release open-source software for analyzing and comparing large datasets.
 
 ### Hawaiian _Drosophila_: model clade for evo-devo
 
@@ -94,8 +98,7 @@ Samuel Church has a background in adult education, directing programs in New Hav
 email: samuel.church@nyu.edu
 
 office: Brown Building
-31 Washington Place
-New York, NY 10003
+24 Waverly Place, 9th Floor New York, NY 10003, USA
 
 
 
