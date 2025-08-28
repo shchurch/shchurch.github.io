@@ -47,7 +47,7 @@ _Physalia_ jellyfish, known as Portuguese man o' war or bluebottles, are beautif
 
 Sailors, swimmers, and scientists have encountered these animals for centuries, and have learned a few important things: They are colonial, meaning they grow by adding more bodies via asexual budding. They have a muscular sail they use to travel. And they have a powerful, sometimes fatal, sting.
 
-But there is much more we still don't know, including  when and where they reproduce, and how far they actually migrate. We led a [global initiative](https://www.biorxiv.org/content/10.1101/2024.07.10.602499v2) to collect _Physalia_ from the world's oceans and found evidence for cryptic diversity, as well as regionally endemic subpopulations. 
+But there is much more we still don't know, including  when and where they reproduce, and how far they actually migrate. We led a [global initiative](https://doi.org/10.1016/j.cub.2025.05.066) to collect _Physalia_ from the world's oceans and found evidence for cryptic diversity, as well as regionally endemic subpopulations. 
 
 ### Life-history evolution and insect eggs
 
