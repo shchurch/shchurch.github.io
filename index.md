@@ -2,12 +2,7 @@
 layout: default
 ---
 
-> Principal investigator: Samuel H. Church, PhD  
-
 ![hatchlings](/assets/img/icons.png)
-
-* TOC
-{:toc}
 
 # Research
 
@@ -83,15 +78,44 @@ Samuel Church has a background in adult education, directing programs in New Hav
 
 # People
 
-![CELBig](/assets/img/ChurchEvolutionLaboratory.png)
 
-<span style="color:rgb(237, 117, 52); font-weight:bold;">We are actively recruiting at all levels. Interested in joining? Contact us below!</span>
+<div class="person-card">
+  <img class="headshot" src="/assets/img/shc1.png" alt="Samuel Church">
+  <div class="person-info">
+    <strong>Samuel H. Church, PhD</strong> — Principal Investigator<br>
+    <a href="https://scholar.google.com/citations?user=4fMce0EAAAAJ&hl=en">Google Scholar</a> &middot; <a href="/assets/Samuel_Church_CV_Aug2024.pdf">CV</a>
+  </div>
+</div>
 
-**Samuel H. Church, PhD** – Principal Investigator
-![Samuel Church](/assets/img/shc1.png)
 
-[Google Scholar profile](https://scholar.google.com/citations?user=4fMce0EAAAAJ&hl=en)
+<div class="person-card">
+  <img class="headshot" src="/assets/img/jarva.jpg" alt="Taiya Jarva">
+  <div class="person-info">
+    <strong>Taiya Jarva</strong> — Bioinformatician<br>
+    <a href="https://github.com/stupornova33">GitHub</a>
+  </div>
+</div>
 
+<div class="person-card">
+  <img class="headshot" src="/assets/img/morris.jpg" alt="Cameron Morris">
+  <div class="person-info">
+    <strong>Cameron Morris</strong> — MSc Student
+  </div>
+</div>
+
+<div class="person-card">
+  <img class="headshot" src="/assets/img/selin.png" alt="Selin Bayraktaroglu">
+  <div class="person-info">
+    <strong>Selin Bayraktaroglu</strong> — MSc Student
+  </div>
+</div>
+
+<div class="person-card">
+  <img class="headshot" src="/assets/img/emily.JPG" alt="Emily Zhang">
+  <div class="person-info">
+    <strong>Emily Zhang</strong> — Undergraduate researcher
+  </div>
+</div>
 
 # Contact
 
@@ -99,6 +123,8 @@ email: samuel.church@nyu.edu
 
 office: Brown Building
 24 Waverly Place, 9th Floor New York, NY 10003, USA
+
+[GitHub](https://github.com/shchurch) · [Google Scholar](https://scholar.google.com/citations?user=4fMce0EAAAAJ&hl=en)
 
 
 
