@@ -97,6 +97,13 @@ Samuel Church has a background in adult education, directing programs in New Hav
 </div>
 
 <div class="person-card">
+  <img class="headshot" src="/assets/img/rafa.jpg" alt="Rafael Baez">
+  <div class="person-info">
+    <strong>Rafael Baez</strong> — PhD Student
+  </div>
+</div>
+
+<div class="person-card">
   <img class="headshot" src="/assets/img/morris.jpg" alt="Cameron Morris">
   <div class="person-info">
     <strong>Cameron Morris</strong> — MSc Student
