@@ -89,6 +89,13 @@ Samuel Church has a background in adult education, directing programs in New Hav
 
 
 <div class="person-card">
+  <img class="headshot" src="/assets/img/joe.jpeg" alt="Joseph Arguelles">
+  <div class="person-info">
+    <strong>Joseph Arguelles</strong> — Postdoctoral Associate
+  </div>
+</div>
+
+<div class="person-card">
   <img class="headshot" src="/assets/img/jarva.jpg" alt="Taiya Jarva">
   <div class="person-info">
     <strong>Taiya Jarva</strong> — Bioinformatician<br>
@@ -121,6 +128,13 @@ Samuel Church has a background in adult education, directing programs in New Hav
   <img class="headshot" src="/assets/img/emily.JPG" alt="Emily Zhang">
   <div class="person-info">
     <strong>Emily Zhang</strong> — Undergraduate researcher
+  </div>
+</div>
+
+<div class="person-card">
+  <img class="headshot" src="/assets/img/juan.jpg" alt="Juan Zambrano">
+  <div class="person-info">
+    <strong>Juan Zambrano</strong> — Undergraduate researcher, CRI Program
   </div>
 </div>
 
