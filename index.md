@@ -23,6 +23,8 @@ Given their close relationship to model species like _Drosophila melanogaster_, 
 
 The central question of our research is: What drives diversification? Hawaiian _Drosophila_ present an ideal system to study this question, given their spectacular diversity in morphology, behavior, and ecology, generated over a relatively short evolutionary timescale.
 
+See the [Hawaiian Drosophila Genomes Project](https://shchurch.github.io/Hawaiian-Drosophila-Genomes-Project/) for our collaborative initiative to sequence and compare the genomes of all ~1,000 endemic Hawaiian fly species.
+
 ### Evolutionary inference for developmental data
 
 We develop new tools for evolutionary analysis of gene expression data from [single-cell sequencing](https://doi.org/10.1101/2022.06.01.494334) and other RNA-seq technologies. This work combines mathematics, bioinformatics, and developmental and evolutionary biology to build a new analytical framework.
@@ -60,15 +62,19 @@ This work was [published](https://doi.org/10.1038/s41586-019-1302-4) in the jour
 
 We also study the organ that makes insect eggs: the insect ovary. Our [publication in _Proceedings of the Royal Society B_](https://doi.org/10.1098/rspb.2021.0150) found that ovary development has a big impact on patterns in ovary structure variation across species.
 
-### Phylogenetic software and methods
+### Methods for evolutionary analysis of sequencing data
 
-Phylogenies are hypotheses about the relationships between organisms. We previously wrote software to statistically compare phylogenies.
+We develop open-source software and computational methods for the evolutionary analysis of sequencing datasets, spanning the full workflow from raw data processing through comparative phylogenetic inference.
 
 ![sowhat](/assets/img/sowhat.png)
 
-We call our software `sowhat`, feel free to [check it out](https://github.com/josephryan/sowhat), and reach out if you need any help using it.
+`sowhat` ([GitHub](https://github.com/josephryan/sowhat)) statistically tests competing phylogenetic hypotheses and has been applied to our own work on the evolutionary history of invertebrate lineages (e.g. [Cnidaria](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139068), [Siphonophora](https://www.sciencedirect.com/science/article/pii/S1055790318300460)).
 
-This software has been deployed by many researchers, including our own work on the evolutionary history of invertebrate lineages (e.g. [Cnidaria](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139068), [Siphonophora](https://www.sciencedirect.com/science/article/pii/S1055790318300460)).
+`countland` ([GitHub](https://github.com/shchurch/countland)) provides tools for evolutionary analysis of single-cell RNA-seq data using count-based approaches that avoid normalization assumptions.
+
+`sharkmer` ([GitHub](https://github.com/caseywdunn/sharkmer)) enables rapid, reference-free assembly of gene products directly from raw sequencing reads.
+
+Our latest work uses AI to generate structured, queryable datasets from the published taxonomic literature, enabling richer biodiversity datasets for comparative evolutionary analysis.
 
 # Outreach
 
