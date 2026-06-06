@@ -46,10 +46,12 @@ section img {
   max-width: 100%;
 }
 
-/* Figure captions (bold-only paragraph lines below images) */
-section p > strong:only-child {
-  color: #555;
-  font-size: 0.9em;
+/* Figure captions (bold text in paragraphs that contain an image) */
+section p:has(> img) > strong {
+  color: #2c5282;
+  font-size: 0.88em;
+  font-weight: normal;
+  font-style: italic;
 }
 
 /* Sidebar nav */
