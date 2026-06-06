@@ -96,7 +96,7 @@ Samuel Church has a background in adult education, directing programs in New Hav
 </div>
 
 <div class="person-card">
-  <img class="headshot" src="/assets/img/jarva.jpg" alt="Taiya Jarva">
+  <img class="headshot" src="/assets/img/jarva_sm.jpg" alt="Taiya Jarva">
   <div class="person-info">
     <strong>Taiya Jarva</strong> — Bioinformatician<br>
     <a href="https://github.com/stupornova33">GitHub</a>
@@ -104,37 +104,37 @@ Samuel Church has a background in adult education, directing programs in New Hav
 </div>
 
 <div class="person-card">
-  <img class="headshot" src="/assets/img/rafa.jpg" alt="Rafael Baez">
+  <img class="headshot" src="/assets/img/rafa_sm.jpg" alt="Rafael Baez">
   <div class="person-info">
     <strong>Rafael Baez</strong> — PhD Student
   </div>
 </div>
 
 <div class="person-card">
-  <img class="headshot" src="/assets/img/morris.jpg" alt="Cameron Morris">
+  <img class="headshot" src="/assets/img/morris_sm.jpg" alt="Cameron Morris">
   <div class="person-info">
     <strong>Cameron Morris</strong> — MSc Student
   </div>
 </div>
 
 <div class="person-card">
-  <img class="headshot" src="/assets/img/selin.png" alt="Selin Bayraktaroglu">
+  <img class="headshot" src="/assets/img/selin_sm.jpg" alt="Selin Bayraktaroglu">
   <div class="person-info">
     <strong>Selin Bayraktaroglu</strong> — MSc Student
   </div>
 </div>
 
 <div class="person-card">
-  <img class="headshot" src="/assets/img/emily.JPG" alt="Emily Zhang">
+  <img class="headshot" src="/assets/img/emily_sm.jpg" alt="Emily Zhang">
   <div class="person-info">
     <strong>Emily Zhang</strong> — Undergraduate researcher
   </div>
 </div>
 
 <div class="person-card">
-  <img class="headshot" src="/assets/img/juan.jpg" alt="Juan Zambrano">
+  <img class="headshot" src="/assets/img/juan_sm.jpg" alt="Juan Zambrano">
   <div class="person-info">
-    <strong>Juan Zambrano</strong> — Undergraduate researcher, CRI Program
+    <strong>Juan Zambrano</strong> — Undergraduate researcher, CRI
   </div>
 </div>
 
